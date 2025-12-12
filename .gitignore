@@ -73,3 +73,6 @@ assets/sounds/*.ogg
 assets/sounds/*.mp3
 !assets/fonts/README.txt
 !assets/sounds/README.txt
+
+# etc
+.claude
