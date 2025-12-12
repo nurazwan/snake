@@ -1,0 +1,75 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# C++ compiled files
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.exe
+*.out
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Xcode
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+
+# Visual Studio
+*.vcxproj.user
+*.suo
+*.user
+*.sln.docstates
+
+# vcpkg
+vcpkg_installed/
+
+# Game runtime files (keep templates)
+highscores.json
+!highscores.json.example
+
+# User assets (keep README)
+assets/fonts/*.ttf
+assets/sounds/*.wav
+assets/sounds/*.ogg
+assets/sounds/*.mp3
+!assets/fonts/README.txt
+!assets/sounds/README.txt
